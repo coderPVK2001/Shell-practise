@@ -165,6 +165,15 @@ for do done
 if then fi
 while do done
 
+12)
+🧠 Key Rules You Learned (Very Important)
+
+Rule                     	Example
+Space required in [ ]	    [ -d "$dir" ]    WRONG ONE ==> [ -d "$dir"]  
+No space around =	     count=$(...)    WRONG ONE ==> count= $(...) 
+Always quote variables	       "$dir"        OPTIONAL/WRONG ONE ==> $dir  bcoz if filename contains spaces then it will break.
+$( ) for commands	       $(ls ...)     
+
 #######################################################################################
 #######################################################################################
 MAIN SHELL NOTES START FROM HERE ----------------------------------------------------->
